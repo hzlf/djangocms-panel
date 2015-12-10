@@ -6,10 +6,6 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('cms', '0013_auto_20151208_1145'),
-    ]
-
     operations = [
         migrations.CreateModel(
             name='Panel',
